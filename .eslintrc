@@ -1,3 +1,14 @@
 {
-  "extends": "@segment/eslint-config/browser/legacy"
+  "parser": "babel-eslint",
+  "extends": "@segment/eslint-config/browser/legacy",
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  }
 }

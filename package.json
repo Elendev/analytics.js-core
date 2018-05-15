@@ -11,6 +11,7 @@
   ],
   "main": "lib/index.js",
   "scripts": {
+    "build": "true",
     "test": "make test"
   },
   "repository": {
@@ -47,7 +48,7 @@
     "component-querystring": "^2.0.0",
     "component-type": "^1.2.1",
     "component-url": "^0.2.1",
-    "debug": "^0.7.4",
+    "debug": "^2.6.8",
     "inherits": "^2.0.1",
     "install": "^0.7.3",
     "is": "^3.1.0",
@@ -55,10 +56,10 @@
     "new-date": "^1.0.0",
     "next-tick": "^0.2.2",
     "segmentio-facade": "^3.0.2",
-    "uuid": "^2.0.2"
+    "uuid": "^3.0.0"
   },
   "devDependencies": {
-    "@segment/analytics.js-integration": "^2.0.1",
+    "@segment/analytics.js-integration": "^3.2.0",
     "@segment/eslint-config": "^3.1.1",
     "browserify": "^13.0.0",
     "browserify-istanbul": "^2.0.0",
