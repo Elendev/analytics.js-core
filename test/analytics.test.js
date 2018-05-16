@@ -1,7 +1,8 @@
 'use strict';
 
 var Analytics = require('../lib').constructor;
-var Facade = require('segmentio-facade');
+var Facade = require('../lib/facades/Facade');
+var Identify = require('../lib/facades/Identify');
 var analytics = require('../lib');
 var assert = require('proclaim');
 var bind = require('component-event').bind;
@@ -14,7 +15,6 @@ var sinon = require('sinon');
 var tick = require('next-tick');
 var trigger = require('compat-trigger-event');
 
-var Identify = Facade.Identify;
 var cookie = Analytics.cookie;
 var group = analytics.group();
 var store = Analytics.store;
