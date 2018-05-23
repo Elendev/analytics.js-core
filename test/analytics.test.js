@@ -7,7 +7,6 @@ var analytics = require('../lib');
 var assert = require('proclaim');
 var bind = require('component-event').bind;
 var createIntegration = require('@segment/analytics.js-integration');
-var extend = require('@ndhoule/extend');
 var type = require('component-type');
 var jQuery = require('jquery');
 var pageDefaults = require('../lib/pageDefaults');
@@ -586,7 +585,7 @@ describe('Analytics', function() {
         assert(category === 'category');
         assert(name === 'name');
         assert.deepEqual(opts, { context: { page: defaults } });
-        assert.deepEqual(props, extend(defaults, { category: 'category', name: 'name' }));
+        assert.deepEqual(props, { ...defaults, category: 'category', name: 'name' });
         done();
       });
       analytics.page('category', 'name', {}, {});
