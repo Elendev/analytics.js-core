@@ -26,12 +26,9 @@
   "dependencies": {
     "@ndhoule/after": "^1.0.0",
     "@ndhoule/clone": "^1.0.0",
-    "@ndhoule/defaults": "^2.0.1",
     "@ndhoule/each": "^2.0.1",
     "@ndhoule/extend": "^2.0.0",
-    "@ndhoule/foldl": "^2.0.1",
     "@ndhoule/keys": "^2.0.0",
-    "@ndhoule/map": "^2.0.1",
     "@segment/canonical": "^1.0.0",
     "@segment/is-meta": "^1.0.0",
     "@segment/isodate": "^1.0.2",
