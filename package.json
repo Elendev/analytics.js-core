@@ -25,7 +25,6 @@
   "homepage": "https://github.com/segmentio/analytics.js-core#readme",
   "dependencies": {
     "@ndhoule/after": "^1.0.0",
-    "@ndhoule/clone": "^1.0.0",
     "@segment/canonical": "^1.0.0",
     "@segment/is-meta": "^1.0.0",
     "@segment/isodate": "^1.0.2",
@@ -36,7 +35,6 @@
     "component-emitter": "^1.2.1",
     "component-event": "^0.1.4",
     "component-querystring": "^2.0.0",
-    "component-type": "^1.2.1",
     "debug": "^2.6.8",
     "inherits": "^2.0.1",
     "install": "^0.7.3",
@@ -51,6 +49,7 @@
     "browserify-istanbul": "^2.0.0",
     "compat-trigger-event": "^1.0.0",
     "component-each": "^0.2.6",
+    "es6-deep-clone": "^1.1.1",
     "eslint": "^2.9.0",
     "eslint-plugin-mocha": "^2.2.0",
     "eslint-plugin-require-path-exists": "^1.1.5",
