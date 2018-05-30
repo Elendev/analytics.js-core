@@ -28,7 +28,6 @@
     "@segment/canonical": "^1.0.0",
     "@segment/is-meta": "^1.0.0",
     "@segment/isodate": "^1.0.2",
-    "@segment/isodate-traverse": "^1.0.1",
     "@segment/top-domain": "^3.0.0",
     "bind-all": "^1.0.0",
     "component-cookie": "^1.1.2",
