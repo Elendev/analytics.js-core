@@ -5,7 +5,6 @@ var Facade = require('../lib/facades/Facade');
 var Identify = require('../lib/facades/Identify');
 var analytics = require('../lib');
 var assert = require('proclaim');
-var bind = require('component-event').bind;
 var createIntegration = require('@segment/analytics.js-integration');
 var type = require('component-type');
 var jQuery = require('jquery');
